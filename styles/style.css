@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family:'Source Sans Pro', sans-serif;
+    color: rgb(250, 196, 20);  
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+} 
+
+/* ****************************************************************************************** */
+/* -------------------------- FONDO DE FODAS LAS PESTAÑAS ----------------------------------- */
+/* ****************************************************************************************** */
+.fondo {
+    background-image: url('../Medias/m.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(255, 238, 169, 0.856); opacity: 05;
+    width: 100%;
+    opacity: 80%;
+}
+
+.fondo_1 {
+    background-image: url(../Medias/g.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(255, 238, 169, 0.856); opacity: 05;
+    width: 100%;
+
+}
+
+.fondo_2 {
+    background-image: url(../Medias/mm.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(255, 238, 169, 0.856); opacity: 05;
+    width: 100%;
+}
+
+.fondo_3 {
+    background-image: url(../Medias/cor.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(255, 238, 169, 0.856); opacity: 05;
+    width: 100%;
+}
+
+.fondo_4 {
+    background-image: url(../Medias/palta.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(255, 238, 169, 0.856); opacity: 05;
+    width: 100%;
+}
+
+/* *********************************************************************************************** */
+/* -------------------------- FIN FONDO DE FODAS LAS PESTAÑAS ------------------------------------ */
+/* *********************************************************************************************** */
+
+
+
+
+/* ************************************************************************************************ */
+/* ---------------------------------- INICIO DE HEADER -------------------------------------------- */
+/* ************************************************************************************************ */
+
+
+.Barra_ {
+    display:flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: rgba(2, 2, 2, 0.5);
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h1:hover{
+    /* transformacion */ 
+    transform: scale(1.50);
+    transition: 2s; 
+    
+}
+
+.header_navegation_desp {
+    display: flex;
+}
+
+.header_navegation_desp li{
+    padding: 32px;   
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:480px) {
+    .header_navegation_desp {
+    display: none;
+    }
+    h1 {
+        font-size: 1rem;
+        align-items: center;
+    }
+    .Barra_ {
+        justify-content: center;
+    }
+}
+
+
+/* ************************************************************************************************** */
+/* ------------------------------------- FIN DE HEADER ---------------------------------------------  */
+/* ************************************************************************************************** */
+
+
+/* ************************************************************************************************** */
+/* -----------------------------------------  MAIN HOME ----------------------------------------- */
+/* ************************************************************************************************** */
+
+.main_home {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 50px;
+    text-align: right;
+    margin-top: 10%;
+}
+
+@media screen and (max-width:480px) {
+    .main_home {
+        font-size: 1.8rem;
+        margin-top: 40%;
+    }
+}
+
+/* ************************************************************************************************* */
+/* ------------------------------------------ FIN MAIN --------------------------------------------- */
+/* ************************************************************************************************* */
+
+
+/* *********************************************************************************************** */
+/* --------------------------------------- FOOTER ------------------------------------------------ */
+/* ************************************************************************************************ */
+
+.footer_sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:  rgba(2, 2, 2, 0.5);
+    padding: 1%;
+    margin-top: 20%;
+}
+
+footer section a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0,90%);
+    font-size: 1.8rem;
+    width: 2.8rem;
+    height: 2.8rem;
+    background-color: rgb(250, 196, 20);
+    border-radius: 50%;
+    
+}
+
+#insta, #face, #wpp {
+    color: rgb(0, 0, 0,90%);
+}
+
+@media screen and (max-width:480px) {
+    .FOOTER_ {
+        margin-top: 40%;
+    }
+    .footer_sec a {
+        font-size: 1rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
+/* ********************************************************************************************* */
+/*------------------------------------------ FIN FOOTER ---------------------------------------- */ 
+/* ********************************************************************************************* */
+
+
+
+/* ******************************************************************************************* */
+/* --------------------------------- MAIN NUESTROS PRODUCTOS --------------------------------- */
+/* ******************************************************************************************* */
+
+main {
+    display: inline;
+}
+
+main div h2 {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+main div p {
+    text-align:center ;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img1 {
+    border-radius: 1500px;
+}
+.img2 {
+    border-radius: 1500px;
+
+}
+
+.img3 {
+    border-radius: 1500px;
+
+}
+.img4 {
+    border-radius: 1500px;
+}
+
+/* ************************************************************************************* */
+/* -------------------------------- INICIO DE QUINES SOMOS ----------------------------- */
+/* ************************************************************************************** */
+
+h2 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+#primero {
+    display: grid;
+    grid-template-rows: 20% 80%;;
+    grid-template-columns: repeat( 2 50%);
+    grid-template-areas: 
+    "primero" "segundo";
+}
+
+.texto1 p, .texto2 p {
+    color: black !important;
+    font-weight: bold;
+}
+
+.texto1 {
+    grid-area: primero;
+    display: flex;
+    align-items:center;
+    justify-content: left;
+    font-size: 2rem;
+}
+
+.foto1 {
+    grid-area: primero;
+    display: flex;
+    justify-content: flex-start;
+    width: 45%;
+    height: 45%;
+}
+
+.texto2 {
+    grid-area: segundo;
+    display: flex;
+    align-items:center;
+    justify-content: right;
+    font-size: 2rem;
+    order: 2;
+    
+}
+
+.foto2 {
+    grid-area: segundo;
+    display: flex;
+    justify-content: flex-end;
+    width: 45%;
+    height: 45%;
+    order: 1;
+}
+
+@media screen and (max-width:480px) {
+    .texto1 {
+        font-size: 1rem;
+        margin-left: 2%;
+    }
+    .texto2 {
+        font-size: 0.8rem;
+        margin-right: 2%;
+    }
+    .fondo_2 {
+        width: 100%;
+        height: 100%;
+        padding-left: 2;
+    
+    }
+}
+
+/* ********************************************************************************** */
+/* ----------------------------- FIN DE QUIENES SOMOS ------------------------------- */
+/* *********************************************************************************** */
+
+/* ********************************************************************************* */
+/* --------------------------------- INICIO CONTACTO ------------------------------- */
+/* ******************************************************************************** */
+
+.contact__main{
+    display: grid;
+    grid-template-columns: 1 60%;
+    grid-template-rows: repeat(2 30% 60%);
+    justify-content: center;
+    gap: 15%;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.input__{
+    display: grid;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: 1vw;
+    background-color: rgba(196, 196, 196, 0.8);
+    font-size: 25px;
+    color: black;
+    font-weight: bold
+}
+
+#form__contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5vw;
+    margin-top: 1vw;
+    align-items: center;
+}
+
+@media screen and (max-width:480px) {
+    .contact__main {
+        font-size: 1rem;
+        margin-top: 10%;
+    }
+    #form__contacto {
+        font-size: 0.5rem;
+    }
+}
+
+/* ***************************************************************************** */
+/* ---------------------------- FIN CONTACTO ----------------------------------- */
+/* ***************************************************************************** */
+
+/****************************************************************************** */
+/* ---------------------------------- SUCURSALES ---------------------------------- */
+/* *************************************************************************** */
+
+
+.sucursales {
+    display: grid;
+    grid-template-columns: 1 80%;
+    grid-template-rows: 2 repeat( 40% 30%);
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1%;
+
+}
+
+.sucursales h2 {
+    gap: 40%;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.sucursales_ li {
+    font-size: 30px;
+    font-weight: bold;
+    color: black !important;
+    margin-top: 2%;
+    
+
+/* .sucursales h2{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+.sucursales_ li {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+} */
+
+/**************************************************************************** */
+/* ------------------------ FIN SUCURSALES ---------------------------------- */
+/* ************************************************************************** */
