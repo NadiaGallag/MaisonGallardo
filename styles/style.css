@@ -100,6 +100,11 @@ h1:hover{
     display: flex;
 }
 
+.header_navegation_desp:hover{
+    /* gradiente */
+    background-image: linear-gradient(to top, rgba(169, 169, 169, 0.722), rgb(83, 83, 83));
+}
+
 .header_navegation_desp li{
     padding: 32px;   
     margin-bottom: 50px;
