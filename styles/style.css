@@ -110,6 +110,20 @@ h1:hover{
     font-size: 20px;
 }
 
+/* animaciones */
+
+@keyframes subtitulo {
+    0% {
+        transform: scale(2,2);
+
+    }
+}
+
+.ferment {
+    animation-name: subtitulo;
+    animation-duration: 5s;
+}
+
 @media screen and (max-width:480px) {
     .header_navegation_desp {
     display: none;
@@ -248,7 +262,6 @@ h2 {
     font-size: 50px;
 }
 
-
 #primero {
     display: grid;
     grid-template-rows: 20% 80%;;
@@ -296,6 +309,43 @@ h2 {
     height: 45%;
     order: 1;
 }
+
+/* animaciones */
+
+@keyframes somos {
+    0% {
+         transform: rotate(75deg)
+    }
+    50% {
+        transform: rotate(100deg);
+    }
+    100% {
+        transform: rotate(400deg)
+    }
+    
+}
+
+#main_somos h2 {
+    animation-name: somos;
+    animation-duration: 3s;
+}
+
+@keyframes imagenes {
+    0% { width: 100px;
+        height: 100px;
+    }
+    50% {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+.foto1, .foto2 {
+    animation-name: imagenes;
+    animation-duration: 5s;
+}
+
 
 @media screen and (max-width:480px) {
     .texto1 {
@@ -361,6 +411,24 @@ h2 {
     #form__contacto {
         font-size: 0.5rem;
     }
+}
+
+/* animaciones */
+@keyframes contacto {
+    0% {
+        width: 200px;
+        height: 200px;
+    }
+
+    100% {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.contact__main p {
+    animation-name: contacto;
+    animation-duration: 1s;
 }
 
 /* ***************************************************************************** */
